@@ -8,13 +8,13 @@ A module for calculating the in-place [Cholesky decomposition](http://en.wikiped
 
 ## Installation
 
-```
+``` bash
 npm install ndarray-cholesky-factorization
 ```
 
 ## Usage
 
-```
+``` javascript
 var cholesky = require('ndarray-cholesky-factorization');
 ```
 
@@ -24,7 +24,7 @@ Calculates the Cholesky factorization for a symmetric, positive-definite matrix 
 
 ### Example
 
-```
+``` javascript
 var cholesky = require('ndarray-cholesky-factorization'),
     pool = require('ndarray-scratch');
 
@@ -46,8 +46,8 @@ Run tests via the command `npm test`
 [npm-image]: https://badge.fury.io/js/ndarray-cholesky-factorization.svg
 [npm-url]: http://badge.fury.io/js/ndarray-cholesky-factorization
 
-[travis-image]: https://travis-ci.org/scijs/https://travis-ci.org/scijs/ndarray-cholesky-factorization.svg
-[travis-url]: https://travis-ci.org/scijs/https://travis-ci.org/scijs/ndarray-cholesky-factorization
+[travis-image]: https://travis-ci.org/scijs/ndarray-cholesky-factorization.svg
+[travis-url]: https://travis-ci.org/scijs/ndarray-cholesky-factorization
 
 [dependencies-image]: http://img.shields.io/david/scijs/ndarray-cholesky-factorization.svg
 [dependencies-url]: https://david-dm.org/scijs/ndarray-cholesky-factorization
