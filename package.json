@@ -29,6 +29,8 @@
     "ndarray-scratch": "^1.1.1"
   },
   "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.4",
     "ndarray-ops": "^1.2.2"
   }
 }
