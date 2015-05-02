@@ -1,0 +1,29 @@
+{
+  "name": "ndarray-cholesky-factorization",
+  "version": "1.0.0",
+  "description": "Cholesky Factorization of ndarrays",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scijs/ndarray-cholesky-factorization.git"
+  },
+  "keywords": [
+    "linear-algebra",
+    "matrix",
+    "decomposition",
+    "factorization"
+  ],
+  "author": "Philipp Burckhardt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scijs/ndarray-cholesky-factorization/issues"
+  },
+  "homepage": "https://github.com/scijs/ndarray-cholesky-factorization#readme",
+  "dependencies": {
+    "ndarray": "^1.0.16",
+    "ndarray-scratch": "^1.1.1"
+  }
+}
