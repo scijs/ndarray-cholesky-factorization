@@ -9,13 +9,13 @@ A module for calculating the in-place [Cholesky decomposition](http://en.wikiped
 ## Installation
 
 ```
-npm install ndarray-cholesky-decomposition
+npm install ndarray-cholesky-factorization
 ```
 
 ## Usage
 
 ```
-var cholesky = require('ndarray-cholesky-decomposition');
+var cholesky = require('ndarray-cholesky-factorization');
 ```
 
 ### cholesky(A, L)
@@ -25,7 +25,7 @@ Calculates the Cholesky factorization for a symmetric, positive-definite matrix 
 ### Example
 
 ```
-var cholesky = require('ndarray-cholesky-decomposition'),
+var cholesky = require('ndarray-cholesky-factorization'),
     pool = require('ndarray-scratch');
 
 var A = ndarray(new Float64Array([4,12,-16,12,37,-43,-16,-43,98]), [3, 3]);
@@ -43,11 +43,11 @@ Run tests via the command `npm test`
 
 [MIT license](http://opensource.org/licenses/MIT).
 
-[npm-image]: https://badge.fury.io/js/ndarray-cholesky-decomposition.svg
-[npm-url]: http://badge.fury.io/js/ndarray-cholesky-decomposition
+[npm-image]: https://badge.fury.io/js/ndarray-cholesky-factorization.svg
+[npm-url]: http://badge.fury.io/js/ndarray-cholesky-factorization
 
-[travis-image]: https://travis-ci.org/scijs/ndarray-cholesky-decomposition.svg
-[travis-url]: https://travis-ci.org/scijs/ndarray-cholesky-decomposition
+[travis-image]: https://travis-ci.org/scijs/https://travis-ci.org/scijs/ndarray-cholesky-factorization.svg
+[travis-url]: https://travis-ci.org/scijs/https://travis-ci.org/scijs/ndarray-cholesky-factorization
 
-[dependencies-image]: http://img.shields.io/david/scijs/ndarray-cholesky-decomposition.svg
-[dependencies-url]: https://david-dm.org/scijs/ndarray-cholesky-decomposition
+[dependencies-image]: http://img.shields.io/david/scijs/ndarray-cholesky-factorization.svg
+[dependencies-url]: https://david-dm.org/scijs/ndarray-cholesky-factorization
