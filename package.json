@@ -14,7 +14,9 @@
     "linear-algebra",
     "matrix",
     "decomposition",
-    "factorization"
+    "factorization",
+    "ndarray",
+    "scijs"
   ],
   "author": "Philipp Burckhardt",
   "license": "MIT",
@@ -25,5 +27,8 @@
   "dependencies": {
     "ndarray": "^1.0.16",
     "ndarray-scratch": "^1.1.1"
+  },
+  "devDependencies": {
+    "ndarray-ops": "^1.2.2"
   }
 }
