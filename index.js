@@ -6,6 +6,10 @@ module.exports =  function cholesky(A, L) {
 
 	if ( A.dimension !== 2 ) {
 		return false;
+	} else {
+		if ( A.shape[0] !== A.shape[1] ) {
+			return false;
+		}
 	}
 
 	var n = A.shape[0];
@@ -17,7 +21,7 @@ module.exports =  function cholesky(A, L) {
 			var res = (i === j) ?
 				Math.sqrt(A.get(i, i) - s) :
 				(1 / L.get(j, j) * (A.get(i, j) - s));
-			
+
 			L.set(i, j, res);
 		}
 	}

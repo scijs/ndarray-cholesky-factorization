@@ -4,7 +4,7 @@
   "description": "Cholesky Factorization of ndarrays",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test"
+    "test": "./node_modules/.bin/browserify -t coverify test/test.js --bare | node | ./node_modules/.bin/coverify"
   },
   "repository": {
     "type": "git",
@@ -30,8 +30,9 @@
     "ndarray-scratch": "^1.1.1"
   },
   "devDependencies": {
-    "chai": "^2.3.0",
-    "mocha": "^2.2.4",
-    "ndarray-ops": "^1.2.2"
+    "browserify": "^10.0.0",
+    "coverify": "^1.1.0",
+    "ndarray-ops": "^1.2.2",
+    "tape": "^4.0.0"
   }
 }
